@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday [Friend's Name]</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional: Custom styles -->
+    <style>
+        .container {
+            text-align: center;
+            padding-top: 20px;
+            display: block;
+            align-items: normal;
+        }
+        .photo {
+            width: 100%;
+            height: 315px; /* Match the height of the video */
+            object-fit: cover; /* Ensures the image covers the box without distortion */
+            margin-bottom: 16px;
+            max-width: 560px; /* Adjust the width of the image box */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for styling */
+        }
+        .video-container {
+        width: 100%;
+        max-width: 560px;
+        margin-top: -15px;
+        height: 400px; /* Adjust this value to control the height */
+        overflow: hidden;
+    }
+    .video-container video {
+        width: 100%;
+        height: 100%; /* Ensures the video fits the container */
+        object-fit: cover; /* Optional: Ensures the video covers the container area */
+    }
+        h3 {
+            margin-top: 20px;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Heading for the Birthday Wish -->
+        <h3>Happy Birthday Sharan Bhai 🎂</h3>
+
+        <!-- Friend's Photo (Rectangular and same size as the video) -->
+        <img src="WhatsApp Image 2024-11-20 at 14.47.02.jpeg" alt="Friend's Photo" class="photo img-fluid">
+
+        <!-- Video -->
+        <div class="video-container">
+            <video class="img-fluid" width="100%" controls>
+                <source src="WhatsApp Video 2024-11-20 at 19.45.18.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
